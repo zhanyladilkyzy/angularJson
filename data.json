@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "id": 26011,
+      "full_name": "Bob Mark"
+    },
+    {
+      "id": 26012,
+      "full_name": "Alice Mark"
+    },
+    {
+      "id": 26013,
+      "full_name": "Mark Bob"
+    }
+  ],
+  "groups": [
+    {
+      "id": "IS-1804",
+      "year_of_study": 3
+    },
+    {
+      "id": "IS-1701",
+      "year_of_study": 4
+    },
+    {
+      "id": "IS-1805",
+      "year_of_study": 3
+    }
+  ]
+}

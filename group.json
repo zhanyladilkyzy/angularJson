@@ -1,0 +1,16 @@
+{
+  "groups": [
+    {
+      "id": "IS-1804",
+      "year_of_study": 3
+    },
+    {
+      "id": "IS-1701",
+      "year_of_study": 4
+    },
+    {
+      "id": "IS-1805",
+      "year_of_study": 3
+    }
+  ]
+}
