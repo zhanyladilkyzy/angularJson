@@ -1,1 +1,9 @@
 <p>user works!</p>
+<button type="button" (click)="getUsers()">
+  Get Users
+</button>
+<div *ngFor="let value of userList">
+  <p>
+    Student ID: {{value.id}}, Full Name: {{value.full_name}}
+  </p>
+</div>
