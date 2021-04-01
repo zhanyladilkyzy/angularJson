@@ -1,1 +1,9 @@
 <p>group works!</p>
+<button type="button" (click)="getGroups()">
+  Get Groups
+</button>
+<div *ngFor="let value of groupList">
+  <p>
+    Group ID {{value.id}}, year of study: {{value.year_of_study}}
+  </p>
+</div>
