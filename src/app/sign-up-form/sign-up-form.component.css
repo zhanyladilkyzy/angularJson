@@ -1,0 +1,29 @@
+form{
+  width: 80%;
+  margin: auto;
+  height: 320px;
+  border-style: solid;
+  border-color: #2B547E;
+  font-family: "Helvetica Neue";
+}
+
+header{
+  background-color: #2B547E;
+  padding: 10px;
+  margin-top: -1px;
+}
+
+.content{
+  padding-left: 40px;
+}
+
+.main{
+  padding-right: 30px;
+}
+
+button{
+  background-color: #2B547E;
+  color: #FFFFFF;
+  width: 60px;
+  height: 30px;
+}
