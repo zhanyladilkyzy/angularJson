@@ -1,0 +1,50 @@
+<h1>Using Template reference variable</h1>
+<form #form1="ngForm" (ngSubmit)="onSubmit(form1)">
+
+  <b>form-1 validity is <span> {{form1.valid}} </span></b>
+  <form #form2="ngForm" (ngSubmit)="onSubmit(form2)">
+    <b>form-2 validity is <span> {{form2.valid}} </span></b>
+    <br>
+    <input type="text" id="form1" name="form1" formControlName="form1">
+    <form #form21="ngForm" (ngSubmit)="onSubmit(form21)">
+      <b>form-2.1 validity is <span> {{form21.valid}} </span></b>
+      <br>
+      <input type="text" id="form21" name="form1" formControlName="form21">
+    </form>
+    <form #form22="ngForm" (ngSubmit)="onSubmit(form22)">
+      <b>form-2.2 validity is <span> {{form22.valid}} </span></b>
+      <br>
+      <input type="text" id="form22" name="form1" formControlName="form22">
+    </form>
+
+    <button type="submit">Toggle Reactive form</button>
+
+    <form #form3="ngForm" (ngSubmit)="onSubmit(form3)">
+      <p>Reactive form</p>
+      <b>form-3 validity is <span> {{form3.valid}} </span></b>
+      <br>
+      <input type="text" id="form3" name="form1" formControlName="form3">
+
+      <form #form31="ngForm" (ngSubmit)="onSubmit(form31)">
+        <b>form-3.1 validity is <span> {{form31.valid}} </span></b>
+        <br>
+        <input type="text" id="form31" name="form1" formControlName="form31">
+      </form>
+    </form>
+
+    <form #form4="ngForm" (ngSubmit)="onSubmit(form4)">
+      <p>Isolated form</p>
+      <b>form-4 validity is <span> {{form4.valid}} </span></b>
+      <br>
+      <input type="text" id="form4" name="form1" formControlName="form4">
+      <form #form41="ngForm" (ngSubmit)="onSubmit(form41)">
+        <b>form-4.1 validity is <span> {{form41.valid}} </span></b>
+        <br>
+        <input type="text" id="form41" name="form1" formControlName="form41">
+      </form>
+    </form>
+
+  </form>
+
+</form>
+

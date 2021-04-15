@@ -5,13 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AdminModuleModule } from "./admin-module/admin-module.module";
 import { SignUpFormComponent } from './sign-up-form/sign-up-form.component';
+import { NestedFormComponent } from './nested-form/nested-form.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    SignUpFormComponent
+    SignUpFormComponent,
+    NestedFormComponent
   ],
   imports: [
     BrowserModule,
